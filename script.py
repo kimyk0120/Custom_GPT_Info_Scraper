@@ -12,7 +12,6 @@ data_list = []
 # url = "https://chatgpt.com/g/g-23B7QDQzF-ai-coupon-code-finder-smart-shopping-companion"
 url = "https://chatgpt.com/g/g-GbLbctpPz-universal-primer"
 
-
 # Fetch the webpage content
 response = requests.get(url, verify=False)
 content = response.text
